@@ -6,10 +6,16 @@
   <title>พื้นที่ทบทวนความรู้สึก</title>
 
   <style>
-   body {
+ body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background-color: #f7f3ee;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;   /* เห็นรูปครบ ไม่ตัดขอบ */
+  background-color: #f7f3ee;  /* สีพื้นหลังกรณีรูปไม่เต็มจอ */
+  background-attachment: fixed;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +23,6 @@
   padding: 20px;
   overflow: hidden;
   animation: fadeIn 1.2s ease;
-  position: relative;
 }
 
    
